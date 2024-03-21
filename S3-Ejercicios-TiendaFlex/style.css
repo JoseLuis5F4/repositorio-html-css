@@ -1,0 +1,164 @@
+body{
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6{
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+span{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.title-header{
+    text-align: center;
+}
+
+.searcher{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.searcher-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searcher-main img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.profile{
+    width: 20px;
+}
+
+.shopping{
+    width: 20px;
+}
+
+.menu{
+    display: block;
+    position: relative;
+    top: -140px;
+    right: -75px;
+    margin: 0;
+    width: 200px;
+}
+
+.promotions{
+    color: #E67348;
+    font-weight: bold;
+}
+
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.b-articulo{
+    background-color: #EFEFEF;
+    width: 300px;
+    max-width: 120%;
+}
+
+.footer-mi_tienda-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+
+.footer-mi_tienda-discount{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-mi_tienda-discount h6{
+    font-size: 20px;
+    width: 300px;
+    align-self: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-info-separate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.contact-info-phone{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.footer-mi_tienda-accesories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.guia-columna{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: justify;
+    margin: 35px;
+}

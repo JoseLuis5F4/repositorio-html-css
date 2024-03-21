@@ -1,0 +1,48 @@
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.item{
+    align-items: center;
+    margin: 1%;
+}
+
+h1{
+    color: #9E3500;
+    font-size: 20px;
+}
+
+h2{
+    color: black;
+    font-size: 15px;
+}
+
+span{
+    color: #7e7e7e;
+}
+
+p{
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+}
+
+.shoe{
+    background-color: #F6F6F6;
+    border-radius: 1%;
+    margin: 1px;
+}
+
+.price-striked{
+    margin-bottom: 0;
+}
+
+.price-discount{
+    margin-top: 0;
+    color: green;
+}

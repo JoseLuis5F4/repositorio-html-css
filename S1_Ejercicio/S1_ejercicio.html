@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Incluimos el Favicon de la página web-->
+    <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+    <!--Establecemos fuente-->
+    <link href="https://fonts.google.com/selection?query=Grotesk" rel="stylesheet">
+    <!--Estilos CSS-->
+    <link href="style.css" rel="stylesheet">
+    <title>Mozza Bar</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="IMG/Mozza Bar Logo.png" alt="mozzabar logo"></div>
+        <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Concepto</a></li>
+            <li><a href="#">Fotos</a></li>
+            <li><a href="#">Menú</a></li>
+            <li><a href="#">Reservas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="section-Entrance">
+        <img src="IMG/Galeria1.png" alt="Descubre Mozza Bar">
+    </section> 
+
+    <section class="section-Concept">
+        <h3>CONCEPTO</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus perferendis, quae earum facilis a beatae nulla facere culpa dicta ex quidem obcaecati accusantium itaque nemo ratione harum minus corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis at quisquam dolorem eum ipsam pariatur neque distinctio atque, a fuga odit mollitia nemo dicta quis corrupti sed blanditiis error voluptatum.
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque numquam maiores voluptates eaque ratione vero amet ut pariatur? Ipsam aliquam distinctio voluptates nihil ratione eligendi natus expedita possimus quas minima!
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos facere eaque nihil voluptates a. Non commodi modi alias assumenda libero beatae accusantium ad inventore facilis, autem maxime aperiam repellat quibusdam.
+        </p>
+    </section>
+
+    <section class="section-Galery">
+        <img src="IMG/imagen1.avif" alt="imagen1">
+        <img src="IMG/imagen2.jpg" alt="imagen2">
+        <img src="IMG/imagen3.jpg" alt="imagen3">
+        <img src="IMG/imagen4.jpg" alt="imagen4">
+        <img src="IMG/imagen5.jpg" alt="imagen5">
+        <img src="IMG/imagen6.jpg" alt="imagen6">
+        <img src="IMG/imagen7.jpg" alt="imagen7">
+    </section>
+
+    <section class="section-Menu">
+        <div id="menuBreakfast" class="menu">Desayunos</div>
+        <div id="menuCarta" class="menu">Carta</div>
+        <div id="menuCocktails" class="menu">Cocktails</div>
+
+        <img class="menu-img" id="imagen" src="IMG/carta.jpg" alt="Imagen default">
+
+        <div class="cta-button">
+            <button>Ver la carta de desayunos</button>
+        </div>
+        
+    </section>
+
+    <div class="section-Reservas">
+        
+        <div class="form-Container">
+            <h5>RESERVAS</h5>
+            <form>
+                <fieldset>
+                    <legends>Reservar</legends>
+                    <label for="Personas">Personas</label>
+                <select id="Personas" name="Personas">
+                    <option value="2">2 personas</option>
+                    <option value="3">3 personas</option>
+                    <option value="4">4 personas</option>
+                    <option value="5">5 personas</option>
+                </select>
+                <label for="Hora">Hora</label>
+                <input type="time" name="Hora" id="Hora" min="7:30" max="13:30" placeholder="Selecciona una hora:">
+                <label for="Mesa">Tipo de Mesa</label>
+                <select name="Mesa" id="Mesa">
+                    <option value="interior">Interior</option>
+                    <option value="exterior">Exterior</option>
+                    <option value="terraza">Terraza</option>
+                </select>
+                <button type="submit" name="accion" value="reservar">Reservar</button><br>
+                <span>Si no encuentra disponibilidad, apúntese en la lista de espera.</span>
+                <button type="submit" name="accion" value="lista_espera">Lista de Espera</button>
+                <button type="submit" name="accion" value="solicitud_grupo">Solicitud de Grupo</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="content-Container">
+            <h6>MOZZA BAR</h6>
+            <h6>FOOD & DRINKS</h6>
+            <span>Conde de Peñalver 64</span>
+            <span>28006 - Madrid</span>
+            <span>Abrimos de lunes a domingo de 7:30 a 1:30</span>
+        </div>
+
+    </div>
+    
+    <h5>Blog</h5>
+    <div class="blog">
+        <img class="blog-img" src="IMG/blog1.png" alt="blog1">
+        <img class="blog-img" src="IMG/blog2.png" alt="blog2">
+        <img class="blog-img" src="IMG/blog3.png" alt="blog3">
+        <br>
+        <button class="cta-button">Ver todas las entradas</button>
+    </div>
+
+    <div class="section-Location">
+        <img src="IMG/Mozza Bar Logo.png" alt="mozzabar logo">
+        <h6>VEN CUANDO QUIERAS</h6>
+        <div class="map">
+            <img src="" alt="logoMap">
+            <span>C/ Conde de Peñalver 64</span>
+            <span>28006 - Madrid</span>
+        </div>
+
+        <div class="phone">
+            <img src="" alt="logoPhone">
+            <span>910 258 327</span>
+        </div>
+
+        <div>
+            <img src="" alt="logoMail">
+            <span>hola@mozzabar.es</span>
+        </div>
+    </div>
+
+    <div class="RRSS">
+        <button class="facebook-Button"> FACEBOOK</button>
+        <button class="INSTAGRAM-Button"> INSTAGRAM</button>
+    </div>
+
+    <footer>
+        <div class="footer-Column">
+            <h4>Enlaces de interés</h4>
+            <p>Aviso legal</p>
+            <p>Cookies</p>
+        </div>
+
+        <div class="footer-Column">
+            <h4>Horarios</h4>
+            <p>Lunes a domingo</p>
+            <p>7:30 a 13:30</p>
+        </div>
+
+        <div class="footer-Column">
+            <h4>Horarios</h4>
+            <p>Lunes a domingo</p>
+            <p>7:30 a 13:30</p>
+        </div>
+
+        <div class="footer-Bottom">
+            <div class="copyrights">© 2017. Todos los derechos reservados</div>
+            <div class="social-footer">
+                <img src="" alt="facebookLogo">
+                <img src="" alt="instagramLogo">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

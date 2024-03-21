@@ -1,0 +1,22 @@
+.galery{
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: rgb(180, 215, 246);
+    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
+}
+
+.game{
+    width: 20%;
+    margin: 2%; 
+    border-radius: 2%;
+    border: #63e065 solid;
+}
+
+    /*display: flex;
+    margin: 10px;
+    width: 20%;
+    max-width: 100%;
+    border-radius: 2%;
+    border: #63e065 solid;*/
