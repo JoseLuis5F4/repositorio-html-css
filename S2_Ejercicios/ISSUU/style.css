@@ -1,0 +1,105 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.issuu-Header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 15px;
+    border-bottom: #333 solid;
+    justify-content: space-between;
+}
+
+.logo-Header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+
+.logo-header-img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-Header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0;
+    width: 15%;
+    max-width: 20%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin: 0% 10%;
+}
+
+.login-links{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-section{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-terms-section{
+    margin: 2% 0%;
+}
+
+.cta-create-account{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-style: dashed;
+    border-radius: 5%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 6% 5%;
+    border-top: #332 solid;
+    border-width: thin;
+}
+
+.footer_1{
+    margin-right: 50px;
+}
+
+.footer-link{
+    color: black;
+}

@@ -8,26 +8,40 @@
     <title>Mailchimp</title>
 </head>
 <body>
-    <div>
+    <div class="div_container">
         <div class="Mailchimp-container">
-            <img src="IMG2/" alt="Mailchimp Logo">
+            <img class="mailchimp_logo" src="IMG2/mailchimp.svg" alt="Mailchimp Logo">
         </div>
 
-        <div>
+        <div class="mailchimp_register">
             <h1>Welcome to Mailchimp</h1>
             <p>Find your people. Engange your customers. Build your brand. Do it all with Mailchimp´s Marketing Platform. Already have an account? <a href="#">Log in</a></p>
-
-            <form>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email"><br>
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username"><br>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <button type="button" id="showButton" onclick="togglePasswordVisibility()">
+            
+            <form class="form_register">
+                <div>
+                    <label for="email"> <b>Email</b></label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email"><br>
+                </div>
+                <br>
+                <div>
+                    <label for="username"><b>Username</b></label>
+                </div>
+                <div>
+                    <input type="text" name="username" id="username"><br>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <label for="password"><b>Password</b></label>
+                    </div>
+                    <input type="password" name="password" id="password">
+                <button class="b_show" type="button" id="showButton" onclick="togglePasswordVisibility()">
                     <img src="IMG2/Show icon.png" alt="Mostrar" width="20" height="20"> Show
                 </button>
-
+                </div>
+                
                 <ul>
                     <li>One lowercase character</li>
                     <li>One uppercase character</li>
@@ -36,10 +50,14 @@
                     <li>8 characters minimum</li>
                 </ul>
 
+                <br><br>
+
                 <input type="submit" value="Sign up" class="sign-up-button">
 
                 <input type="checkbox" name="no-emails" id="no-emails">
                 <label for="no-emails">I don´t want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+
+                <br><br>
 
                 <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and yoy agree to Mailchimp´s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
 

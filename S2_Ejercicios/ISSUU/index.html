@@ -18,9 +18,10 @@
         </div>
     </header>
 
-    <h1>Create an ISSUU Account.</h1>
+    <div class="content">
+        <h1>Create an ISSUU Account.</h1>
     
-    <div>
+    <div class="login-links">
         <a href="#"><img src="IMG/Sign in with Google.png" alt="Sign in with Google"></a>
         <a href="#"><img src="IMG/Sign in with Facebook.png" alt="Continue with Facebook"></a>
     </div>
@@ -29,14 +30,14 @@
 
     <div>
         <form class="formulario">
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="e.g. john.doe@email.com"><br><br>
-                <label for="password">Pasword</label>
+            <div class="form-section">
+                <label for="email"><b>Email</b></label>
+                <input type="email" name="email" id="email" placeholder="e.g. john.doe@email.com"><br>
+                <label for="password"><b>Pasword</b></label>
                 <input type="password" name="password" id="pasword">
             </div>
             
-            <div>
+            <div class="form-terms-section">
                 <input type="checkbox" name="terms" id="terms">
                 <label for="terms">I accept the <a href="#">Terms of Service</a> and the <a href="#">Professional Terms of Service</a>.</label>
             </div>
@@ -46,13 +47,15 @@
         </form>
     </div>
     
+    </div>
+    
 
     <footer class="footer">
         <div class="footer_1"><span class="footer_1">Issuu Inc.</span></div>
         <div>
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">DMCA</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Privacy</a>
+            <a class="footer-link" href="#">DMCA</a>
         </div>
     </footer>
 </body>

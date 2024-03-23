@@ -1,0 +1,54 @@
+.div_container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+b{
+    font-size: 17px;
+}
+
+.Mailchimp-container{
+    width: 10%;
+}
+
+.mailchimp_logo{
+    width: 200px;
+    object-fit: cover;
+}
+
+.mailchimp_register{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+.form_register{
+    
+}
+
+.b_show{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+.sign-up-button{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border-radius: 5%;
+    border-color: gray;
+    color: #808080;
+    background-color: white;
+}
